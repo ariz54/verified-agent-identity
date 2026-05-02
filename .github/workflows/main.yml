@@ -8,7 +8,7 @@ on:
         required: true
         default: 'ariz54'
       agent_description:
-        description: 'asc'
+        description: 'ariz54'
         required: true
         default: 'ariz54 AI Agent'
 
@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '24'
+          node-version: '20'
 
       - name: Step 1 - Install ClawHub skill
         run: npx clawhub@latest install verified-agent-identity
