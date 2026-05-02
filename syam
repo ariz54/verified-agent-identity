@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'syam'
         required: true
-        default: 'uangdroid AI Agent'
+        default: 'syam AI Agent'
 
 jobs:
   verify:
